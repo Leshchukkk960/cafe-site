@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Замовлення</title>
+</head>
+<body>
+  <header>
+    <h1>Замовлення онлайн</h1>
+    <nav>
+      <a href="index.html">Головна</a> |
+      <a href="menu.html">Меню</a> |
+      <a href="order.html">Замовлення</a> |
+      <a href="contacts.html">Контакти</a>
+    </nav>
+  </header>
+  <main>
+    <form>
+      <label>Ваше ім'я: <input type="text" name="name" required></label><br><br>
+      <label>Email: <input type="email" name="email" required></label><br><br>
+      <label>Виберіть напій: 
+        <select name="drink">
+          <option>Еспресо</option>
+          <option>Капучино</option>
+          <option>Лате</option>
+          <option>Чай</option>
+        </select>
+      </label><br><br>
+      <label>Розмір: 
+        <input type="radio" name="size" value="малий"> Малий
+        <input type="radio" name="size" value="великий"> Великий
+      </label><br><br>
+      <label>Додатково: 
+        <input type="checkbox" name="milk"> Молоко
+        <input type="checkbox" name="sugar"> Цукор
+      </label><br><br>
+      <label>Коментар: <br>
+        <textarea name="comment" rows="4" cols="40"></textarea>
+      </label><br><br>
+      <button type="submit">Надіслати</button>
+    </form>
+  </main>
+</body>
+</html>
